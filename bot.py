@@ -3,9 +3,7 @@ import logging
 
 from aiogram import Bot, Dispatcher, executor, types
 
-# from config import TOKEN
-# строчка ниже по функционалу аналогична закомментированной строчке выше
-# TOKEN = os.getenv('TOKEN')
+
 TOKEN = os.environ.get('TOKEN')
 
 logging.basicConfig(level=logging.INFO)
